@@ -3,9 +3,7 @@
   File -> Open -> Navigate to BoardGameShopper folder -> click on folder without opening it -> ok.
 3. Make sure MariaDB is installed on pc.
 4. Make sure password and username to access MariaDB are "root" and "root".
-  Or Go into "hibernate.cfg.xml" file in the BoardGameShopper and change username and password to desired:\n
-        "property name="connection.username" root"/n
-        "property name="connection.password" root"
+  Or Go into "hibernate.cfg.xml" file in the BoardGameShopper and change username and password by changing the value assigned to "connection.username" and "connection.password" fields.
         
 5. If running program for the first time: make sure "setupStartingData" in "Main" class is set to true.
   On other runs set it to false, otherwise it will continue to rescrape board games.
