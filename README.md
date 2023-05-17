@@ -3,7 +3,8 @@
 3. Open BoardGameShopper via Intellij:
   File -> Open -> Navigate to BoardGameShopper folder -> click on folder without opening it -> ok.
 4. Make sure MariaDB is installed on pc. <br />
-  DB and it's tables should auto generate on application start
+  DB and it's tables should auto generate on application start. <br />
+  The database name created will be "stalozaidimai". 
 5. Make sure password and username to access MariaDB are "root" and "root".
   Or go into "hibernate.cfg.xml" file in the BoardGameShopper and change username and password by changing the value assigned to "connection.username" and "connection.password" fields.
 6. If running program for the first time: make sure "setupStartingData" in "Main" class is set to true.<br />
