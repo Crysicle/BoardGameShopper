@@ -6,7 +6,7 @@
   Or Go into "hibernate.cfg.xml" file in the BoardGameShopper and change username and password by changing the value assigned to "connection.username" and "connection.password" fields.
         
 5. If running program for the first time: make sure "setupStartingData" in "Main" class is set to true.
-  On other runs set it to false, otherwise it will continue to rescrape board games.
+  On other runs set it to false, otherwise it will continue to rescrape board games each time program is run.
 
 6. Once program is running, go to page "http://localhost:8080/home" you will be redirected to a login page.
   Valid credentials are:
