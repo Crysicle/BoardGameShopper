@@ -10,8 +10,8 @@
 
 6. Once program is running, go to page "http://localhost:8080/home" you will be redirected to a login page.
   Valid credentials are:
-    for ROLE_USER: Username: user, Password: user
-    for ROLE_ADMIN: Username: admin, Password: admin
+    A) for ROLE_USER: Username: user, Password: user
+    B) for ROLE_ADMIN: Username: admin, Password: admin
 7. Users wont be able to see the search table for board games, admins will.
 
 8. To search for board games via mechanics / category, click on the buttons with said mechanic or category and click "SEARCH" button.
